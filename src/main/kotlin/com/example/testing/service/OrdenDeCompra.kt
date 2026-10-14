@@ -1,4 +1,6 @@
-package com.example.springboottesting
+package com.example.testing.service
+
+import com.example.testing.model.Item
 
 class OrdenDeCompra {
     private val items = mutableListOf<Item>()

@@ -1,4 +1,4 @@
-package com.ejemplo.demo // Usa el mismo paquete raíz de tus tests
+package com.example.testing
 
 import io.kotest.core.config.AbstractProjectConfig
 import io.kotest.extensions.spring.SpringExtension

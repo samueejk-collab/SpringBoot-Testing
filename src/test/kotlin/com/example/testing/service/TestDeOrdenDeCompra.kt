@@ -1,9 +1,10 @@
-package com.example.springboottesting
+package com.example.testing.service
 
+import com.example.testing.model.Item
 import io.kotest.core.spec.style.BehaviorSpec
 import io.kotest.matchers.shouldBe
 
-class TestDeOrdenDeCompra: BehaviorSpec ({
+class TestDeOrdenDeCompra: BehaviorSpec({
     Given("una orden de compra cuya suma de items resulta en 100 y el costo de la manteca es de 20") {
         val item = Item("Un producto", 100)
         val orden = OrdenDeCompra()
